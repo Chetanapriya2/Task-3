@@ -204,13 +204,13 @@ class _MainScreenState extends State<MainScreen> {
             Container(
               decoration: BoxDecoration(
                 shape: BoxShape.circle,
-                color: Colors.white, // Background color
+                color: Colors.white, 
                 boxShadow: [
                   BoxShadow(
-                    color: Colors.black12, // Shadow color
-                    blurRadius: 6, // Softness of the shadow
-                    spreadRadius: 2, // Spread of the shadow
-                    offset: Offset(2, 2), // Shadow position
+                    color: Colors.black12, 
+                    blurRadius: 6,
+                    spreadRadius: 2, 
+                    offset: Offset(2, 2), 
                   ),
                 ],
               ),
